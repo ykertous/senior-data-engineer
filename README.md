@@ -6,7 +6,7 @@ This technical assessment is designed to evaluate your data engineering skills t
 **Time Allocation**: 3 hours
 
 ## Problem Statement
-MedAnalytics Inc. processes monthly patient monitoring data from multiple hospitals. Your task is to design and implement a batch processing pipeline that handles vital signs measurements and lab results data, making it suitable for research and analysis purposes.
+Owkin. processes monthly patient monitoring data from multiple hospitals. Your task is to design and implement a batch processing pipeline that handles vital signs measurements and lab results data, making it suitable for research and analysis purposes.
 
 ## Data Description
 
@@ -53,7 +53,6 @@ Implement a proof-of-concept pipeline that includes:
   - Data transformation
   - Statistics calculation
   - Quality reporting
-- Include unit tests
 - Implement error handling
 
 ### 3. Documentation (30 minutes)
@@ -70,8 +69,6 @@ healthcare_pipeline/
 ├── src/
 │   ├── transformations.py
 │   └── quality_checks.py
-├── tests/
-│   └── test_transformations.py
 ├── data/
 │   ├── vitals_2024.csv
 │   └── lab_results_2024.csv
@@ -84,7 +81,6 @@ healthcare_pipeline/
 - Clean, maintainable code
 - Proper error handling
 - Python best practices
-- Unit test coverage
 
 ### Architecture Design (30%)
 - Data flow design
